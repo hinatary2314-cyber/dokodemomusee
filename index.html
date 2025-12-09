@@ -11,24 +11,30 @@
 
   <style>
     :root {
-      --main-color: #f8cdd4; /* 優しいピンク */
-      --accent-color: #000;
-      --bg-light: #f9f9f9;
+      --bg-color: #fff8f5;
+      --main-color: #f8ccd4;
+      --accent-color: #e38091;
+      --text-color: #333;
     }
 
     body {
       margin: 0;
       font-family: 'Noto Sans JP', sans-serif;
-      background-color: #fff;
-      color: #000;
+      background-color: var(--bg-color);
+      color: var(--text-color);
       line-height: 1.8;
     }
 
     header {
-      background-color: #000;
+      background-color: var(--main-color);
       color: #fff;
       padding: 30px 20px;
       text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
     }
 
     nav {
@@ -40,7 +46,7 @@
     }
 
     nav a {
-      color: #000;
+      color: var(--text-color);
       text-decoration: none;
       padding: 15px 20px;
       font-weight: bold;
@@ -48,7 +54,7 @@
     }
 
     nav a:hover {
-      color: var(--main-color);
+      color: var(--accent-color);
     }
 
     .hero {
@@ -63,10 +69,10 @@
     }
 
     .hero h1 {
-      font-size: 2.8rem;
-      background-color: rgba(0, 0, 0, 0.4);
+      font-size: 2.5rem;
+      background-color: rgba(227, 128, 145, 0.7);
       padding: 20px;
-      border-radius: 8px;
+      border-radius: 10px;
     }
 
     section {
@@ -76,14 +82,14 @@
     }
 
     h2 {
-      border-left: 5px solid var(--main-color);
+      border-left: 5px solid var(--accent-color);
       padding-left: 10px;
       margin-bottom: 30px;
       font-size: 1.8rem;
     }
 
     .card {
-      background: var(--bg-light);
+      background: #fff;
       padding: 25px;
       margin-bottom: 30px;
       border-radius: 10px;
@@ -96,7 +102,12 @@
     }
 
     table, th, td {
-      border: 1px solid #ccc;
+      border: 1px solid #eee;
+    }
+
+    th {
+      background-color: var(--main-color);
+      color: #fff;
     }
 
     th, td {
@@ -110,6 +121,7 @@
       margin-bottom: 15px;
       border: 1px solid #ccc;
       border-radius: 5px;
+      font-size: 1rem;
     }
 
     form button {
@@ -119,26 +131,23 @@
       padding: 12px 25px;
       border-radius: 5px;
       cursor: pointer;
+      font-size: 1rem;
       transition: background-color 0.3s;
     }
 
     form button:hover {
-      background-color: #444;
+      background-color: #d66;
     }
 
     footer {
-      background-color: #000;
+      background-color: var(--main-color);
       color: #fff;
       text-align: center;
       padding: 30px 20px;
     }
 
     footer a {
-      color: var(--main-color);
-      text-decoration: none;
-    }
-
-    footer a:hover {
+      color: #fff;
       text-decoration: underline;
     }
 
@@ -173,7 +182,7 @@
   <section id="services">
     <h2>サービス紹介</h2>
     <div class="card">
-      <p>小学生からシニアまで幅広い女性にご利用いただいている、完全予約制の脱毛サロンです。痛みの少ない最新脱毛機器を導入し、丁寧でスピーディーな施術を提供しています。</p>
+      <p>小学生からご年配の女性まで、幅広くご利用いただける完全予約制の脱毛サロンです。やさしく丁寧な対応と最新脱毛機器で、安心・安全な施術を行っています。</p>
     </div>
   </section>
 
@@ -247,6 +256,3 @@
 </body>
 </html>
 
-
-</body>
-</html>
