@@ -1,2 +1,215 @@
-# dokodemomusee
-どこでもミュゼ春日井春見町店
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>どこでもミュゼ 春日井春見町店 | 脱毛サロン</title>
+
+  <!-- Font Awesome for Instagram icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fff;
+      color: #000;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #333;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x500?text=どこでもミュゼ+春日井春見町店') no-repeat center center/cover;
+      color: #fff;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #000;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #000;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #000;
+    }
+
+    form button {
+      background-color: #000;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>どこでもミュゼ 春日井春見町店</h1>
+    <p>女性専用 脱毛サロン</p>
+  </header>
+
+  <nav>
+    <a href="#services">サービス</a>
+    <a href="#price">料金</a>
+    <a href="#access">アクセス</a>
+    <a href="#contact">お問い合わせ</a>
+    <a href="https://www.instagram.com/dokodemo_musee.kasugaiharumi/" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+  </nav>
+
+  <div class="hero">
+    <h1>あなたのキレイを応援する脱毛サロン</h1>
+  </div>
+
+  <section id="services">
+    <h2>サービス紹介</h2>
+    <p>当サロンでは、小学生からご高齢の方まで、幅広い世代の女性が安心してご利用いただける脱毛サービスをご提供しています。最新の脱毛機器を使用し、痛みが少なく、スピーディーな施術を心がけています。</p>
+  </section>
+
+  <section id="price">
+    <h2>料金表</h2>
+    <table>
+      <tr>
+        <th>メニュー</th>
+        <th>価格（税込）</th>
+      </tr>
+      <tr>
+        <td>両ワキ脱毛</td>
+        <td>¥1,000</td>
+      </tr>
+      <tr>
+        <td>全身脱毛（顔・VIO除く）</td>
+        <td>¥15,000</td>
+      </tr>
+      <tr>
+        <td>全身脱毛（顔・VIO含む）</td>
+        <td>¥20,000</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="access">
+    <h2>アクセス</h2>
+    <p>〒486-0837 愛知県春日井市春見町５２−９ シティイトウビル 1階-A</p>
+    <p>最寄り駅：春日井駅 徒歩圏内</p>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3264.047388946691!2d136.960615!3d35.2547821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60037d5913a7c44f%3A0x18eab252ce162ac3!2z44CSNDg2LTA4Mzcg5oSb55-l55yM6IyF5p2R5biC6IyF5p2R55S677yT5LiB55uu77yS4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1702111111111"
+      width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+    <p><a href="https://maps.app.goo.gl/RPPNeNqo7mL74vFP8" target="_blank">▶ Googleマップで開く</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>お問い合わせ・ご予約</h2>
+    <p>お電話：<a href="tel:07055733523">070-5573-3523</a></p>
+    <p>メール：<a href="mailto:info@example.com">info@example.com</a></p>
+
+    <form>
+      <label for="name">お名前</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">メールアドレス</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">お問い合わせ内容</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">送信</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 どこでもミュゼ 春日井春見町店. All Rights Reserved.</p>
+    <p>
+      <a href="https://www.instagram.com/dokodemo_musee.kasugaiharumi/" target="_blank">
+        <i class="fab fa-instagram"></i> Instagramはこちら
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
+
